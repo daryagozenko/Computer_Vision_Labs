@@ -1,0 +1,1027 @@
+{
+  "checkpoints": [
+    {
+      "filename": "checkpoint_resnet50_epoch000_20251214_221603.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch000_20251214_221603.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 12.601156069364162,
+      "val_acc": 12.85878300803674,
+      "timestamp": "2025-12-14T22:16:03.348912",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251214_221603.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_221603.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 12.601156069364162,
+      "val_acc": 12.85878300803674,
+      "timestamp": "2025-12-14T22:16:03.583426",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch001_20251214_222000.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch001_20251214_222000.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 13.294797687861271,
+      "val_acc": 15.269804822043628,
+      "timestamp": "2025-12-14T22:20:00.812406",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251214_222001.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_222001.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 13.294797687861271,
+      "val_acc": 15.269804822043628,
+      "timestamp": "2025-12-14T22:20:01.042849",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251214_222400.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251214_222400.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.028901734104046,
+      "val_acc": 17.795637198622273,
+      "timestamp": "2025-12-14T22:24:00.863735",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251214_222401.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_222401.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.028901734104046,
+      "val_acc": 17.795637198622273,
+      "timestamp": "2025-12-14T22:24:01.126709",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch003_20251214_222753.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch003_20251214_222753.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 14.335260115606937,
+      "val_acc": 16.87715269804822,
+      "timestamp": "2025-12-14T22:27:53.200728",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch004_20251214_223143.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch004_20251214_223143.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 15.606936416184972,
+      "val_acc": 16.762342135476462,
+      "timestamp": "2025-12-14T22:31:43.613457",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch005_20251214_223529.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch005_20251214_223529.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 14.335260115606937,
+      "val_acc": 12.399540757749714,
+      "timestamp": "2025-12-14T22:35:29.996868",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch006_20251214_223918.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch006_20251214_223918.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 13.757225433526012,
+      "val_acc": 7.921928817451206,
+      "timestamp": "2025-12-14T22:39:18.045430",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch007_20251214_224301.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch007_20251214_224301.pth",
+      "epoch": 7,
+      "model_name": "resnet50",
+      "train_acc": 15.375722543352602,
+      "val_acc": 15.269804822043628,
+      "timestamp": "2025-12-14T22:43:01.088120",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch008_20251214_224648.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch008_20251214_224648.pth",
+      "epoch": 8,
+      "model_name": "resnet50",
+      "train_acc": 15.722543352601155,
+      "val_acc": 16.073478760045923,
+      "timestamp": "2025-12-14T22:46:48.599938",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch009_20251214_225036.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch009_20251214_225036.pth",
+      "epoch": 9,
+      "model_name": "resnet50",
+      "train_acc": 16.184971098265898,
+      "val_acc": 16.53272101033295,
+      "timestamp": "2025-12-14T22:50:36.748710",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch009_20251214_230041.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch009_20251214_230041.pth",
+      "epoch": 9,
+      "model_name": "resnet50",
+      "train_acc": 16.184971098265898,
+      "val_acc": 16.53272101033295,
+      "timestamp": "2025-12-14T23:00:41.551464",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch000_20251215_231243.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch000_20251215_231243.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 11.72962226640159,
+      "val_acc": 8.24524312896406,
+      "timestamp": "2025-12-15T23:12:43.918326",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_231244.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231244.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 11.72962226640159,
+      "val_acc": 8.24524312896406,
+      "timestamp": "2025-12-15T23:12:44.084444",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch001_20251215_231520.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch001_20251215_231520.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 24.75149105367793,
+      "val_acc": 14.799154334038056,
+      "timestamp": "2025-12-15T23:15:20.054979",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_231520.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231520.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 24.75149105367793,
+      "val_acc": 14.799154334038056,
+      "timestamp": "2025-12-15T23:15:20.215430",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251215_231750.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251215_231750.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 33.30019880715706,
+      "val_acc": 19.133192389006343,
+      "timestamp": "2025-12-15T23:17:50.269767",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_231750.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231750.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 33.30019880715706,
+      "val_acc": 19.133192389006343,
+      "timestamp": "2025-12-15T23:17:50.438630",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch003_20251215_232030.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch003_20251215_232030.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 34.1948310139165,
+      "val_acc": 20.29598308668076,
+      "timestamp": "2025-12-15T23:20:30.781294",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_232030.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232030.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 34.1948310139165,
+      "val_acc": 20.29598308668076,
+      "timestamp": "2025-12-15T23:20:30.959919",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch004_20251215_232309.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch004_20251215_232309.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 41.74950298210736,
+      "val_acc": 27.801268498942918,
+      "timestamp": "2025-12-15T23:23:09.596515",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_232309.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232309.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 41.74950298210736,
+      "val_acc": 27.801268498942918,
+      "timestamp": "2025-12-15T23:23:09.777306",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch005_20251215_232547.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch005_20251215_232547.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 46.52087475149106,
+      "val_acc": 31.818181818181817,
+      "timestamp": "2025-12-15T23:25:47.337231",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_232547.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232547.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 46.52087475149106,
+      "val_acc": 31.818181818181817,
+      "timestamp": "2025-12-15T23:25:47.501162",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch006_20251215_232822.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch006_20251215_232822.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 51.789264413518886,
+      "val_acc": 35.20084566596194,
+      "timestamp": "2025-12-15T23:28:22.139378",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251215_232822.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232822.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 51.789264413518886,
+      "val_acc": 35.20084566596194,
+      "timestamp": "2025-12-15T23:28:22.316126",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch007_20251215_233106.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch007_20251215_233106.pth",
+      "epoch": 7,
+      "model_name": "resnet50",
+      "train_acc": 51.39165009940358,
+      "val_acc": 34.24947145877378,
+      "timestamp": "2025-12-15T23:31:06.775647",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch007_20251215_233150.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch007_20251215_233150.pth",
+      "epoch": 7,
+      "model_name": "resnet50",
+      "train_acc": 51.39165009940358,
+      "val_acc": 34.24947145877378,
+      "timestamp": "2025-12-15T23:31:50.098082",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch000_20251216_002727.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch000_20251216_002727.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 7.446808510638298,
+      "val_acc": 9.579831932773109,
+      "timestamp": "2025-12-16T00:27:27.654705",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_002727.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_002727.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 7.446808510638298,
+      "val_acc": 9.579831932773109,
+      "timestamp": "2025-12-16T00:27:27.819364",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch001_20251216_002908.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch001_20251216_002908.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.045592705167174,
+      "val_acc": 12.605042016806722,
+      "timestamp": "2025-12-16T00:29:08.247883",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_002908.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_002908.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.045592705167174,
+      "val_acc": 12.605042016806722,
+      "timestamp": "2025-12-16T00:29:08.417821",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251216_003052.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251216_003052.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 16.134453781512605,
+      "timestamp": "2025-12-16T00:30:52.438944",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_003052.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_003052.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 16.134453781512605,
+      "timestamp": "2025-12-16T00:30:52.606575",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch003_20251216_003237.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch003_20251216_003237.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 22.188449848024316,
+      "val_acc": 14.453781512605042,
+      "timestamp": "2025-12-16T00:32:37.736879",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch004_20251216_003423.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch004_20251216_003423.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 26.29179331306991,
+      "val_acc": 20.50420168067227,
+      "timestamp": "2025-12-16T00:34:23.995449",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_003424.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_003424.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 26.29179331306991,
+      "val_acc": 20.50420168067227,
+      "timestamp": "2025-12-16T00:34:24.161042",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch005_20251216_003607.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch005_20251216_003607.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 30.54711246200608,
+      "val_acc": 24.03361344537815,
+      "timestamp": "2025-12-16T00:36:07.855646",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch000_20251216_004346.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch000_20251216_004346.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 9.574468085106384,
+      "val_acc": 11.764705882352942,
+      "timestamp": "2025-12-16T00:43:46.588731",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_004346.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_004346.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 9.574468085106384,
+      "val_acc": 11.764705882352942,
+      "timestamp": "2025-12-16T00:43:46.763989",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch001_20251216_004526.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch001_20251216_004526.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 12.941176470588236,
+      "timestamp": "2025-12-16T00:45:26.975459",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_004527.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_004527.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 12.941176470588236,
+      "timestamp": "2025-12-16T00:45:27.138482",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251216_004714.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251216_004714.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 18.541033434650455,
+      "val_acc": 12.77310924369748,
+      "timestamp": "2025-12-16T00:47:14.696568",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251216_004721.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251216_004721.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 18.541033434650455,
+      "val_acc": 12.77310924369748,
+      "timestamp": "2025-12-16T00:47:21.840107",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch000_20251216_024834.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch000_20251216_024834.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 8.079268292682928,
+      "val_acc": 6.621392190152801,
+      "timestamp": "2025-12-16T02:48:34.976286",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_024835.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_024835.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 8.079268292682928,
+      "val_acc": 6.621392190152801,
+      "timestamp": "2025-12-16T02:48:35.205722",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch001_20251216_025124.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch001_20251216_025124.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 8.536585365853659,
+      "val_acc": 16.298811544991512,
+      "timestamp": "2025-12-16T02:51:24.980852",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_025125.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_025125.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 8.536585365853659,
+      "val_acc": 16.298811544991512,
+      "timestamp": "2025-12-16T02:51:25.217954",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch002_20251216_025413.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch002_20251216_025413.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 16.463414634146343,
+      "val_acc": 13.921901528013583,
+      "timestamp": "2025-12-16T02:54:13.775626",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch003_20251216_025659.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch003_20251216_025659.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 23.323170731707318,
+      "val_acc": 12.054329371816639,
+      "timestamp": "2025-12-16T02:56:59.158867",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch004_20251216_025944.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch004_20251216_025944.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 23.01829268292683,
+      "val_acc": 19.35483870967742,
+      "timestamp": "2025-12-16T02:59:44.382347",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_025944.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_025944.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 23.01829268292683,
+      "val_acc": 19.35483870967742,
+      "timestamp": "2025-12-16T02:59:44.621042",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch005_20251216_030231.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch005_20251216_030231.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 27.591463414634145,
+      "val_acc": 23.599320882852293,
+      "timestamp": "2025-12-16T03:02:31.067541",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_030231.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_030231.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 27.591463414634145,
+      "val_acc": 23.599320882852293,
+      "timestamp": "2025-12-16T03:02:31.303819",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch006_20251216_030516.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch006_20251216_030516.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 27.896341463414632,
+      "val_acc": 26.99490662139219,
+      "timestamp": "2025-12-16T03:05:16.528224",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_030516.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_030516.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 27.896341463414632,
+      "val_acc": 26.99490662139219,
+      "timestamp": "2025-12-16T03:05:16.750595",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch007_20251216_030802.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch007_20251216_030802.pth",
+      "epoch": 7,
+      "model_name": "resnet50",
+      "train_acc": 30.640243902439025,
+      "val_acc": 23.93887945670628,
+      "timestamp": "2025-12-16T03:08:02.631071",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch008_20251216_031048.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch008_20251216_031048.pth",
+      "epoch": 8,
+      "model_name": "resnet50",
+      "train_acc": 32.926829268292686,
+      "val_acc": 28.01358234295416,
+      "timestamp": "2025-12-16T03:10:48.047664",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_031048.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_031048.pth",
+      "epoch": 8,
+      "model_name": "resnet50",
+      "train_acc": 32.926829268292686,
+      "val_acc": 28.01358234295416,
+      "timestamp": "2025-12-16T03:10:48.300785",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch009_20251216_031334.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch009_20251216_031334.pth",
+      "epoch": 9,
+      "model_name": "resnet50",
+      "train_acc": 33.38414634146341,
+      "val_acc": 24.27843803056027,
+      "timestamp": "2025-12-16T03:13:34.312344",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch010_20251216_031621.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch010_20251216_031621.pth",
+      "epoch": 10,
+      "model_name": "resnet50",
+      "train_acc": 32.926829268292686,
+      "val_acc": 23.08998302207131,
+      "timestamp": "2025-12-16T03:16:21.308827",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch011_20251216_031906.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch011_20251216_031906.pth",
+      "epoch": 11,
+      "model_name": "resnet50",
+      "train_acc": 41.00609756097561,
+      "val_acc": 29.881154499151105,
+      "timestamp": "2025-12-16T03:19:06.730396",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_031906.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_031906.pth",
+      "epoch": 11,
+      "model_name": "resnet50",
+      "train_acc": 41.00609756097561,
+      "val_acc": 29.881154499151105,
+      "timestamp": "2025-12-16T03:19:06.954657",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch012_20251216_032150.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch012_20251216_032150.pth",
+      "epoch": 12,
+      "model_name": "resnet50",
+      "train_acc": 37.5,
+      "val_acc": 23.2597623089983,
+      "timestamp": "2025-12-16T03:21:50.384340",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch013_20251216_032434.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch013_20251216_032434.pth",
+      "epoch": 13,
+      "model_name": "resnet50",
+      "train_acc": 42.3780487804878,
+      "val_acc": 29.71137521222411,
+      "timestamp": "2025-12-16T03:24:34.756463",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch014_20251216_032718.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch014_20251216_032718.pth",
+      "epoch": 14,
+      "model_name": "resnet50",
+      "train_acc": 41.61585365853659,
+      "val_acc": 17.31748726655348,
+      "timestamp": "2025-12-16T03:27:18.840856",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch015_20251216_033002.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch015_20251216_033002.pth",
+      "epoch": 15,
+      "model_name": "resnet50",
+      "train_acc": 39.176829268292686,
+      "val_acc": 24.448217317487266,
+      "timestamp": "2025-12-16T03:30:02.549124",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch016_20251216_033245.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch016_20251216_033245.pth",
+      "epoch": 16,
+      "model_name": "resnet50",
+      "train_acc": 45.27439024390244,
+      "val_acc": 33.446519524618,
+      "timestamp": "2025-12-16T03:32:45.951235",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_033246.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_033246.pth",
+      "epoch": 16,
+      "model_name": "resnet50",
+      "train_acc": 45.27439024390244,
+      "val_acc": 33.446519524618,
+      "timestamp": "2025-12-16T03:32:46.169683",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch017_20251216_033529.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch017_20251216_033529.pth",
+      "epoch": 17,
+      "model_name": "resnet50",
+      "train_acc": 45.73170731707317,
+      "val_acc": 29.881154499151105,
+      "timestamp": "2025-12-16T03:35:29.314960",
+      "is_best": false
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch018_20251216_033815.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch018_20251216_033815.pth",
+      "epoch": 18,
+      "model_name": "resnet50",
+      "train_acc": 49.08536585365854,
+      "val_acc": 39.55857385398981,
+      "timestamp": "2025-12-16T03:38:15.395973",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_033815.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_033815.pth",
+      "epoch": 18,
+      "model_name": "resnet50",
+      "train_acc": 49.08536585365854,
+      "val_acc": 39.55857385398981,
+      "timestamp": "2025-12-16T03:38:15.621029",
+      "is_best": true
+    },
+    {
+      "filename": "checkpoint_resnet50_epoch019_20251216_034059.pth",
+      "path": "checkpoints\\checkpoint_resnet50_epoch019_20251216_034059.pth",
+      "epoch": 19,
+      "model_name": "resnet50",
+      "train_acc": 49.23780487804878,
+      "val_acc": 41.59592529711375,
+      "timestamp": "2025-12-16T03:40:59.514304",
+      "is_best": false
+    },
+    {
+      "filename": "best_resnet50_20251216_034059.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_034059.pth",
+      "epoch": 19,
+      "model_name": "resnet50",
+      "train_acc": 49.23780487804878,
+      "val_acc": 41.59592529711375,
+      "timestamp": "2025-12-16T03:40:59.772180",
+      "is_best": true
+    }
+  ],
+  "best_models": [
+    {
+      "filename": "best_resnet50_20251214_221603.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_221603.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 12.601156069364162,
+      "val_acc": 12.85878300803674,
+      "timestamp": "2025-12-14T22:16:03.583426",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251214_222001.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_222001.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 13.294797687861271,
+      "val_acc": 15.269804822043628,
+      "timestamp": "2025-12-14T22:20:01.042849",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251214_222401.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251214_222401.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.028901734104046,
+      "val_acc": 17.795637198622273,
+      "timestamp": "2025-12-14T22:24:01.126709",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_231244.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231244.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 11.72962226640159,
+      "val_acc": 8.24524312896406,
+      "timestamp": "2025-12-15T23:12:44.084444",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_231520.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231520.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 24.75149105367793,
+      "val_acc": 14.799154334038056,
+      "timestamp": "2025-12-15T23:15:20.215430",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_231750.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_231750.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 33.30019880715706,
+      "val_acc": 19.133192389006343,
+      "timestamp": "2025-12-15T23:17:50.438630",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_232030.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232030.pth",
+      "epoch": 3,
+      "model_name": "resnet50",
+      "train_acc": 34.1948310139165,
+      "val_acc": 20.29598308668076,
+      "timestamp": "2025-12-15T23:20:30.959919",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_232309.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232309.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 41.74950298210736,
+      "val_acc": 27.801268498942918,
+      "timestamp": "2025-12-15T23:23:09.777306",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_232547.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232547.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 46.52087475149106,
+      "val_acc": 31.818181818181817,
+      "timestamp": "2025-12-15T23:25:47.501162",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251215_232822.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251215_232822.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 51.789264413518886,
+      "val_acc": 35.20084566596194,
+      "timestamp": "2025-12-15T23:28:22.316126",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_002727.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_002727.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 7.446808510638298,
+      "val_acc": 9.579831932773109,
+      "timestamp": "2025-12-16T00:27:27.819364",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_002908.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_002908.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.045592705167174,
+      "val_acc": 12.605042016806722,
+      "timestamp": "2025-12-16T00:29:08.417821",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_003052.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_003052.pth",
+      "epoch": 2,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 16.134453781512605,
+      "timestamp": "2025-12-16T00:30:52.606575",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_003424.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_003424.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 26.29179331306991,
+      "val_acc": 20.50420168067227,
+      "timestamp": "2025-12-16T00:34:24.161042",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_004346.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_004346.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 9.574468085106384,
+      "val_acc": 11.764705882352942,
+      "timestamp": "2025-12-16T00:43:46.763989",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_004527.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_004527.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 15.349544072948328,
+      "val_acc": 12.941176470588236,
+      "timestamp": "2025-12-16T00:45:27.138482",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_024835.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_024835.pth",
+      "epoch": 0,
+      "model_name": "resnet50",
+      "train_acc": 8.079268292682928,
+      "val_acc": 6.621392190152801,
+      "timestamp": "2025-12-16T02:48:35.205722",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_025125.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_025125.pth",
+      "epoch": 1,
+      "model_name": "resnet50",
+      "train_acc": 8.536585365853659,
+      "val_acc": 16.298811544991512,
+      "timestamp": "2025-12-16T02:51:25.217954",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_025944.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_025944.pth",
+      "epoch": 4,
+      "model_name": "resnet50",
+      "train_acc": 23.01829268292683,
+      "val_acc": 19.35483870967742,
+      "timestamp": "2025-12-16T02:59:44.621042",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_030231.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_030231.pth",
+      "epoch": 5,
+      "model_name": "resnet50",
+      "train_acc": 27.591463414634145,
+      "val_acc": 23.599320882852293,
+      "timestamp": "2025-12-16T03:02:31.303819",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_030516.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_030516.pth",
+      "epoch": 6,
+      "model_name": "resnet50",
+      "train_acc": 27.896341463414632,
+      "val_acc": 26.99490662139219,
+      "timestamp": "2025-12-16T03:05:16.750595",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_031048.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_031048.pth",
+      "epoch": 8,
+      "model_name": "resnet50",
+      "train_acc": 32.926829268292686,
+      "val_acc": 28.01358234295416,
+      "timestamp": "2025-12-16T03:10:48.300785",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_031906.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_031906.pth",
+      "epoch": 11,
+      "model_name": "resnet50",
+      "train_acc": 41.00609756097561,
+      "val_acc": 29.881154499151105,
+      "timestamp": "2025-12-16T03:19:06.954657",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_033246.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_033246.pth",
+      "epoch": 16,
+      "model_name": "resnet50",
+      "train_acc": 45.27439024390244,
+      "val_acc": 33.446519524618,
+      "timestamp": "2025-12-16T03:32:46.169683",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_033815.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_033815.pth",
+      "epoch": 18,
+      "model_name": "resnet50",
+      "train_acc": 49.08536585365854,
+      "val_acc": 39.55857385398981,
+      "timestamp": "2025-12-16T03:38:15.621029",
+      "is_best": true
+    },
+    {
+      "filename": "best_resnet50_20251216_034059.pth",
+      "path": "checkpoints\\best_models\\best_resnet50_20251216_034059.pth",
+      "epoch": 19,
+      "model_name": "resnet50",
+      "train_acc": 49.23780487804878,
+      "val_acc": 41.59592529711375,
+      "timestamp": "2025-12-16T03:40:59.772180",
+      "is_best": true
+    }
+  ],
+  "training_sessions": []
+}

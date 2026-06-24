@@ -1,0 +1,48 @@
+2. Как работает алгоритм распознавания лиц и где он у тебя в коде
+2.1. Логика по шагам (концептуально)
+Алгоритм основан на библиотеке face_recognition, которая внутри использует предобученную нейросеть (ResNet / dlib face recognition model):
+Детекция лица на изображении
+Находятся прямоугольники, где есть лица. Используются HOG или CNN (внутри face_recognition.face_locations).
+Извлечение признаков (embedding)
+Для каждого найденного лица считается 128‑мерный вектор признаков — эмбеддинг.
+Это делает face_recognition.face_encodings(...).
+Этот вектор инвариантен к масштабу, освещению, поворотам в разумных пределах.
+Сохранение в базу
+Для каждого профиля: имя + 128‑мерный вектор.
+Вектора не хранятся как отдельные изображения, а как числа, закодированные в BLOB (через base64).
+Распознавание (сравнение с базой)
+Для нового лица снова считаем 128‑мерный вектор.
+Считаем расстояние (по сути L2 / евклидово) до всех векторов из базы:
+face_recognition.face_distance(known_encodings, new_encoding).
+Берём минимальное расстояние min_dist.
+Если min_dist ≤ tolerance → считаем, что это тот человек, чьё имя соответствует этому вектору.
+Если min_dist > tolerance → «Неизвестно».
+Порог tolerance
+Меньше порог → строже (меньше ложных срабатываний, больше пропусков).
+Больше порог → мягче (больше вероятность, что «похожий» человек будет принят как ты).
+Для фотографий обычно 0.4–0.6, для веб‑камеры часто нужно 0.6–0.7, потому что качество хуже.
+2.2. Где это реализовано в твоём коде
+Все ключевые части в main.py:
+Загрузка и кодирование лица (эмбеддинг):
+  def _encode_face(image_path: str) -> np.ndarray:      """Загружает изображение, находит лицо и возвращает 128-мерный вектор."""      ...      boxes = face_recognition.face_locations(image)      ...      encodings = face_recognition.face_encodings(image, boxes)      ...      return encodings[0]
+Сохранение в базу (модуль управления базой лиц):
+  def add_person(name: str, image_path: str, db_path: str = DB_PATH) -> int:      ...      encoding = _encode_face(image_path)      blob = _serialize_encoding(encoding)      ...      conn.execute(          "INSERT INTO persons (name, encoding, image_path, created_at) VALUES (?, ?, ?, ?)",          (name, blob, image_path, created_at),      )
+Загрузка всех эмбеддингов и имён из базы:
+  def _load_all_encodings(db_path: str = DB_PATH) -> Tuple[List[np.ndarray], List[str]]:      ...      for name, blob in rows:          names.append(name)          encodings.append(_deserialize_encoding(blob))      return encodings, names
+Распознавание по одному изображению:
+  def recognize_from_image(      image_path: str,      db_path: str = DB_PATH,      tolerance: float = 0.45,  ) -> Optional[str]:      ...      encoding = _encode_face(image_path)      encodings, names = _load_all_encodings(db_path)      ...      distances = face_recognition.face_distance(encodings, encoding)      ...      best_idx = np.argmin(distances)      if distances[best_idx] <= tolerance:          return names[best_idx]      return None
+Распознавание в реальном времени (ядро):
+Логика сравнения такая же, только вызывается на каждом кадре в GUI:
+  def _camera_worker(self) -> None:      ...      encodings, names = core._load_all_encodings()      tolerance = self.tolerance_var.get()      ...      locations = face_recognition.face_locations(rgb)      frame_encodings = face_recognition.face_encodings(rgb, locations)      for (top, right, bottom, left), fe in zip(locations, frame_encodings):          distances = face_recognition.face_distance(encodings, fe)          name = "Неизвестно"          color = (0, 0, 255)          if len(distances) > 0:              idx = np.argmin(distances)              if distances[idx] <= tolerance:                  name = names[idx]                  color = (0, 255, 0)          ...
+Отображение результата в реальном времени (GUI):
+  self.live_name_label = tk.Label(      video_container,      text="Последнее распознанное: -",      font=("Arial", 11, "bold"),      fg="#FFD54F",      bg="black",  )  # внутри цикла:  display_name = name  self.root.after(      0,      lambda n=display_name: self.live_name_label.config(          text=f"Последнее распознанное: {n}"      ),  )
+И на самом кадре:
+  ascii_name = display_name.encode("ascii", "ignore").decode("ascii")  # без кириллицы  if not ascii_name:      ascii_name = "UNKNOWN"  cv2.putText(frame, ascii_name, (left, top - 10), ...)
+Что теперь полезно проверить
+На вкладке «Настройки»:
+поставь tolerance примерно 0.6–0.7.
+Добавь 1–2 чётких фото в базу (лицо крупно, без сильных теней).
+Запусти распознавание с камеры:
+если рамка зелёная и под видео видишь «Последнее распознанное: твоё_имя», значит алгоритм работает корректно;
+если рамка почти всегда красная и «Неизвестно» — слишком строгий порог или фото в базе сильно отличаются от текущего вида.
+Если хочешь, могу подсказать, как вывести ещё и значение расстояния (насколько «похож» текущий кадр на сохранённый образ) для отчёта по лабораторной.
